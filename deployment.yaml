@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: app-python
-          image: ${{ secrets.DOCKER_NOMEUSUARIO }}/app-python:latest
+          image: yuribrigido/app-python:79c4d07f0581eea3927e8d4ea8f812805d391cef
           ports:
             - containerPort: 8080
