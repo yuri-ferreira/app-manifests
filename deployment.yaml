@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: app-python
-          image: yuribrigido/app-python:7576d7f324dfb86579351f010eb53af7e220d0f9
+          image: yuribrigido/app-python:b41a64e4517d799a020050d8b852e25b51d10848
           ports:
             - containerPort: 8080
